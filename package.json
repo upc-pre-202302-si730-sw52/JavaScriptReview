@@ -1,0 +1,12 @@
+{
+  "type": "module",
+    "name": "javascript-review",
+    "version": "1.0.0",
+  "module": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

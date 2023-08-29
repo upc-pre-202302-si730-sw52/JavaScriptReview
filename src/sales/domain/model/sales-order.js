@@ -1,4 +1,5 @@
-class SalesOrder {
+import { SalesOrderItem } from './sales-order-item.js';
+export class SalesOrder {
     constructor(id, customerId) {
         this._id = id;
         this.customerId = customerId;

@@ -1,4 +1,4 @@
-class SalesOrderItem {
+export class SalesOrderItem {
     constructor({ orderId, productId, quantity, unitPrice}) {
         this._orderId = orderId;
         this._productId = productId;
